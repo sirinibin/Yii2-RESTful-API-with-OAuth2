@@ -2,11 +2,10 @@
     <a href="https://github.com/yiisoft" target="_blank">
         <img src="https://avatars0.githubusercontent.com/u/993323" height="100px">
     </a>
-    <h1 align="center">Yii 2 RESTful API</h1>
+    <h1 align="center">Yii 2 RESTful API with OAuth 2.0 </h1>
     <br>
 </p>
 INSTALLATION
-------------
 
 ```
 Step1: Create a database named yii2_rest
@@ -48,6 +47,14 @@ Step8:
 [![Latest Stable Version](https://poser.pugx.org/yiisoft/yii2-app-advanced/v/stable.png)](https://packagist.org/packages/yiisoft/yii2-app-advanced)
 [![Total Downloads](https://poser.pugx.org/yiisoft/yii2-app-advanced/downloads.png)](https://packagist.org/packages/yiisoft/yii2-app-advanced)
 [![Build Status](https://travis-ci.org/yiisoft/yii2-app-advanced.svg?branch=master)](https://travis-ci.org/yiisoft/yii2-app-advanced)
+
+
+DEMO
+-------------------
+```
+http://yii2-rest.cloudboxes.org/
+Login: admin/admin123
+```
 
 DIRECTORY STRUCTURE
 -------------------
