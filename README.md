@@ -6,6 +6,7 @@
     <br>
 </p>
 INSTALLATION
+-------------------
 
 ```
 Step1: Create a database named yii2_rest
