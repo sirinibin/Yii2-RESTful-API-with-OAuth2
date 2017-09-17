@@ -45,7 +45,7 @@ class RestController extends Controller
         $this->api_version = isset($_SERVER['HTTP_X_API_VERSION']) ? $_SERVER['HTTP_X_API_VERSION'] : 1;
         $this->request = json_decode(file_get_contents('php://input'), true);
 
-        if(json_last_error()){
+        if(!is_array($this->request)){
             Yii::$app->api->sendFailedResponse(['Invalid Json']);
 
         }
