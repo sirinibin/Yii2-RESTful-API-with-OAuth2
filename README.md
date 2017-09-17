@@ -2,20 +2,48 @@
     <a href="https://github.com/yiisoft" target="_blank">
         <img src="https://avatars0.githubusercontent.com/u/993323" height="100px">
     </a>
-    <h1 align="center">Yii 2 Advanced Project Template</h1>
+    <h1 align="center">Yii 2 RESTful API</h1>
     <br>
 </p>
+INSTALLATION
+------------
 
-Yii 2 Advanced Project Template is a skeleton [Yii 2](http://www.yiiframework.com/) application best for
-developing complex Web applications with multiple tiers.
+```
+Step1: Create a database named yii2_rest
+Step2:Clone the source code
+git clone -b master https://github.com/sirinibin/yii2-rest.git
 
-The template includes three tiers: front end, back end, and console, each of which
-is a separate Yii application.
+Step3: cd yii2-rest
+Step4:composer install
+Step5: ./init
+Step6: vim common/config/main-local.php
+change db information
+ 'db' => [
 
-The template is designed to work in a team development environment. It supports
-deploying the application in different environments.
+            'class' => 'yii\db\Connection',
 
-Documentation is at [docs/guide/README.md](docs/guide/README.md).
+            'dsn' => 'mysql:host=127.0.0.1;dbname=yii2_rest',
+
+            'username' => 'root',
+
+            'password' => '123',
+
+            'charset' => 'utf8',
+
+        ],
+
+Step7: Run db migration
+           cd /var/www/yii2-rest
+            ./yii migrate
+
+Step8:
+            point API end point URL to backend
+             /var/www/yii2-rest/backend/web
+
+
+            point frontend URL to frontend
+             /var/www/yii2-rest/frontend/web
+```
 
 [![Latest Stable Version](https://poser.pugx.org/yiisoft/yii2-app-advanced/v/stable.png)](https://packagist.org/packages/yiisoft/yii2-app-advanced)
 [![Total Downloads](https://poser.pugx.org/yiisoft/yii2-app-advanced/downloads.png)](https://packagist.org/packages/yiisoft/yii2-app-advanced)
