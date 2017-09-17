@@ -164,14 +164,11 @@ class SiteController extends RestController
 
     public function actionLogout()
     {
-        $access_token = Yii::$app->getRequest()->getQueryParam('access-token');
+        $headers = Yii::$app->getRequest()->getHeaders();
+        $access_token = $headers->get('x-access-token');
 
-        if (!isset($access_token)) {
-            $access_token = Yii::$app->getRequest()->getQueryParam('access_token');
-        }
-
-        if (!isset($access_token)) {
-            Yii::$app->api->sendFailedResponse("Invalid Access Token");
+        if(!$access_token){
+            $access_token = Yii::$app->getRequest()->getQueryParam('access-token');
         }
 
         $model = AccessTokens::findOne(['token' => $access_token]);
