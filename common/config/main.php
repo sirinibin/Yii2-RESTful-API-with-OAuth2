@@ -10,7 +10,7 @@ return [
             'class' => 'yii\caching\FileCache',
         ],
         'api' => [
-            'class' => 'common\Components\Api',
+            'class' => 'common\components\Api',
         ],
     ],
 ];
