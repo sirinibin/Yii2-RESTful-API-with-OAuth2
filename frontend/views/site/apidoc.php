@@ -337,7 +337,6 @@ $protocol="http";
       <pre>
     curl -X GET \
           -H "X-Access-Token: 2dadd4bc51a15a41490cdce30383be67" \
-          -H "Content-Type: application/x-www-form-urlencoded" \
           -G  '<?php echo $protocol . "://" . $api_host; ?>/<?= Yii::$app->params['API_VERSION'] ?>/employees'
 
 
