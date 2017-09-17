@@ -7,7 +7,6 @@
 </p>
 INSTALLATION
 -------------------
-
 ```
 Step1: Create a database named yii2_rest
 Step2:Clone the source code
