@@ -53,7 +53,7 @@ Step8:
 DEMO
 -------------------
 ```
-http://yii2-rest.cloudboxes.org/
+http://yii2-rest.dockerboxes.us
 Login: admin/admin123
 ```
 

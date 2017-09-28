@@ -83,7 +83,7 @@ class SiteController extends RestController
      */
     public function actionIndex()
     {
-        Yii::$app->api->sendSuccessResponse(['Yii2 rest']);
+        Yii::$app->api->sendSuccessResponse(['Yii2 RESTful API with OAuth2']);
         //  return $this->render('index');
     }
 
