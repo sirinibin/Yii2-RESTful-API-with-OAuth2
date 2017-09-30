@@ -5,6 +5,25 @@
     <h1 align="center">Yii 2 RESTful API with OAuth 2.0 </h1>
     <br>
 </p>
+
+This is a RESTful API with OAuth2 authentication/security developed using Yii2 framework.
+You can use this if you want to quick start developing your own custom RESTful API by skipping 95% of your scratch works.
+Hopefully this will save lot of your time as this API includes all the basic stuffs you need to get started.
+
+This API also includes a developer dashboard with the API documentation which is developed in Yii2. This will be useful to manage your developers access to the API documentation.
+
+[DEMO](http://yii2-rest.dockerboxes.us)
+-------------------
+```
+http://yii2-rest.dockerboxes.us
+Login: developer/developer
+```
+
+## Official Documentation
+
+Documentation for this RESTful API can be found on the [Yii2 RESTful API with OAuth2 Documenation](http://yii2-rest.dockerboxes.us).
+
+
 INSTALLATION
 
 
