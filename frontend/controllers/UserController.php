@@ -33,11 +33,11 @@ class UserController extends Controller
                 'rules' => [
                     [
                         'actions' => [],
-                        'allow' => false,
+                        'allow' => true,
                         'roles' => ['?'],
                     ],
                     [
-                        'actions' => ['create', 'update', 'index', 'view', 'delete'],
+                        'actions' => ['create','index', 'update', 'view', 'delete'],
                         'allow' => true,
                         'roles' => ['@'],
                     ],
@@ -80,6 +80,7 @@ class UserController extends Controller
      */
     public function actionCreate()
     {
+        exit;
         $model = new User();
 
         if ($model->load(Yii::$app->request->post()) && $model->save()) {
@@ -99,6 +100,7 @@ class UserController extends Controller
      */
     public function actionUpdate($id)
     {
+        exit;
         $model = $this->findModel($id);
 
         if ($model->load(Yii::$app->request->post()) && $model->save()) {
@@ -118,6 +120,7 @@ class UserController extends Controller
      */
     public function actionDelete($id)
     {
+        exit;
         $this->findModel($id)->delete();
 
         return $this->redirect(['index']);
