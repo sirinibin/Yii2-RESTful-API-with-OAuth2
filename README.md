@@ -23,6 +23,15 @@ Login: developer/developer
 
 Documentation for this RESTful API can be found on the [Yii2 RESTful API with OAuth2 Documenation](http://yii2-rest.dockerboxes.us).
 
+## Security Vulnerabilities
+
+If you discover a security vulnerability within this template, please send an e-mail to Sirin k at sirin@nintriva.com. All security vulnerabilities will be promptly addressed.
+
+## License
+
+The Lumen framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
+
+
 
 INSTALLATION
 
