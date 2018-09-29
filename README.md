@@ -15,13 +15,13 @@ This API also includes a developer dashboard with the API documentation which is
 [DEMO](http://yii2-rest.dockerboxes.us)
 -------------------
 ```
-http://yii2-rest.dockerboxes.us
+http://developers.yii2.nintriva.net
 Login: developer/developer
 ```
 
 ## Official Documentation
 
-Documentation for this RESTful API can be found on the [Yii2 RESTful API with OAuth2 Documenation](http://yii2-rest.dockerboxes.us).
+Documentation for this RESTful API can be found on the [Yii2 RESTful API with OAuth2 Documenation](http://developers.yii2.nintriva.net/).
 
 ## Security Vulnerabilities
 
