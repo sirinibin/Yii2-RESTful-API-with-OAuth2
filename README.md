@@ -12,7 +12,7 @@ Hopefully this will save lot of your time as this API includes all the basic stu
 
 This API also includes a developer dashboard with the API documentation which is developed in Yii2. This will be useful to manage your developers access to the API documentation.
 
-[DEMO](http://yii2-rest.dockerboxes.us)
+[DEMO](http://developers.nintriva.net/)
 -------------------
 ```
 http://developers.yii2.nintriva.net
